@@ -7,8 +7,15 @@ const say = (message) => {
   console.log(message);
 }
 
+const compliments = [
+  `You make me a better person`,
+  `I like the way your code smells`,
+  `You have great taste in white-space`,
+]
+
 const getCompliment = () => {
-  return `I like the way your code smells`;
+  const rdmIndex = Math.floor(Math.random() * compliments.length);
+  return compliments[rdmIndex];
 }
 
 (function main () {
