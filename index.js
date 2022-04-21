@@ -7,7 +7,7 @@ const say = (message) => {
   console.log(message);
 }
 
-const tellCompliment = message => {
+const tellCompliment = () => {
   return `I like the way your code smells`;
 }
 
