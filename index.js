@@ -18,4 +18,5 @@ const tellCompliment = message => {
 (function main () {
   say(`Hello I'm a duck!`);
   say(getJoke());
+  say(getCompliment());
 })();
